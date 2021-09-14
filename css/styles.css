@@ -1,0 +1,234 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general-font{ 
+    font-family: 'Cousine', monospace;
+}
+
+.c-font-1{ 
+    font-family: 'Parisienne', cursive;
+    font-size: 2.9rem;
+    font-weight: 500;
+}
+
+.lt-sp{
+    letter-spacing: 1.5rem;
+}
+
+body{ 
+    font-family: 'Nunito', sans-serif
+}
+
+
+.wishes-font{
+    font-family: 'Cookie', cursive;
+}
+
+.custom-color{ 
+    color: rgb(175, 20, 20);
+}
+
+.span-text-1{ 
+    color: black;
+    font-size:2rem;
+}
+
+
+main{ 
+    display: flex;
+}
+
+aside{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    height: 129.5vh;
+    background-image: url(../img/IMG-20210907-WA0005.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.couple{ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 35.2rem;
+    padding:7rem;
+    border-top-left-radius:20% ;
+    border-top-right-radius:20% ;
+    
+
+}
+
+.couple-text{ 
+    color: #fff;
+}
+
+
+.couple-text > h2{ 
+    font-size: 4rem;
+}
+
+.couple-text> h4{ 
+    letter-spacing: 1.2rem;
+    font-size: 1.6rem;
+}
+
+
+header{ 
+    width: 70%;  
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 6rem; 
+   
+}
+
+nav > div{ 
+    width: 50%;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    
+}
+
+
+
+.logo-text{ 
+    font-size: 2.3rem;
+    font-family: 'PT Mono', monospace;
+}
+
+
+
+ul li a { 
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+ul li a:hover{   
+    border-bottom: 3px solid rgb(175, 20, 20);
+    transition: border-bottom .10s ease-in-out;
+}
+
+
+
+ul li:last-of-type a{
+    background-color: rgb(175, 20, 20) !important;
+    color: #fff;
+    padding: 9px 1.3rem;
+    border-radius: 30px;
+}
+
+
+
+.journey{ 
+    padding: 3rem; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p-text{ 
+    width: 50%;
+}
+
+.p-text p:last-of-type{ 
+    padding-top: 2rem ;
+}
+
+.j-img{ 
+    
+    background-image: url(../img/IMG-20210907-WA0004.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    height: 200px;
+}
+
+.p-text > a{ 
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: end;
+}
+
+.gallery{ 
+    display: flex;
+    padding:0 7rem;
+}
+
+.img-showcase{ 
+    border: 3px solid rgb(160, 160, 149);
+    display: flex;
+    max-height: 250px;
+    width: 50%;
+    gap: 1rem;
+    background-color: black;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.img-showcase::-webkit-scrollbar{ 
+    width: 0;
+}
+
+.img{ 
+    min-width: 135px;
+    height: 300px;
+    background-image: url(../img/IMG-20210907-WA0006.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.vid{ 
+    width: 50%;
+    /* height: 130px; */
+}
+
+/* carousel */
+.wishes{ 
+    margin-top: 3rem;
+    padding: 3rem; 
+    width: 60%;
+}
+
+.comments hr{ 
+    width: 50%;
+}
+
+.comments h3{ 
+    font-weight: bold;
+}
+
+
+footer{ 
+    display: flex;
+    justify-content: end;
+    background-color:  rgb(175, 20, 20);
+    position: relative;
+    /* bottom: -10px; */
+}
+
+footer h5{ 
+    color: white;
+    padding: 5px;
+}
